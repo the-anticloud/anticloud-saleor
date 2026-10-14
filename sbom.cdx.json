@@ -1,0 +1,131 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:748bee89-3b95-570f-a721-15eb4b08a2d0",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T16:23:13Z",
+  "component": {
+   "type": "application",
+   "name": "SALEOR",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/SALEOR@83b357604d34",
+   "purl": "pkg:generic/anticloud/SALEOR@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "BSD-3-Clause"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "@release-it/bumper",
+   "version": "^7.0.5",
+   "purl": "pkg:npm/@release-it/bumper@^7.0.5",
+   "bom-ref": "npm/@release-it/bumper@^7.0.5"
+  },
+  {
+   "type": "library",
+   "name": "release-it",
+   "version": "^19.0.4",
+   "purl": "pkg:npm/release-it@^19.0.4",
+   "bom-ref": "npm/release-it@^19.0.4"
+  },
+  {
+   "type": "library",
+   "name": "asgiref",
+   "version": ">=3.11.1",
+   "purl": "pkg:pypi/asgiref@3.11.1",
+   "bom-ref": "pypi/asgiref@>=3.11.1"
+  },
+  {
+   "type": "library",
+   "name": "authlib",
+   "version": ">=1.6.12",
+   "purl": "pkg:pypi/authlib@1.6.12",
+   "bom-ref": "pypi/authlib@>=1.6.12"
+  },
+  {
+   "type": "library",
+   "name": "azure-common",
+   "version": ">=1.1.28",
+   "purl": "pkg:pypi/azure-common@1.1.28",
+   "bom-ref": "pypi/azure-common@>=1.1.28"
+  },
+  {
+   "type": "library",
+   "name": "azure-storage-blob",
+   "version": ">=12.29.0",
+   "purl": "pkg:pypi/azure-storage-blob@12.29.0",
+   "bom-ref": "pypi/azure-storage-blob@>=12.29.0"
+  },
+  {
+   "type": "library",
+   "name": "azure-storage-common",
+   "version": ">=2.1.0",
+   "purl": "pkg:pypi/azure-storage-common@2.1.0",
+   "bom-ref": "pypi/azure-storage-common@>=2.1.0"
+  },
+  {
+   "type": "library",
+   "name": "babel",
+   "version": ">=2.18.0",
+   "purl": "pkg:pypi/babel@2.18.0",
+   "bom-ref": "pypi/babel@>=2.18.0"
+  },
+  {
+   "type": "library",
+   "name": "boto3",
+   "version": "~=1.43",
+   "purl": "pkg:pypi/boto3@1.43",
+   "bom-ref": "pypi/boto3@~=1.43"
+  },
+  {
+   "type": "library",
+   "name": "botocore",
+   "version": "~=1.43",
+   "purl": "pkg:pypi/botocore@1.43",
+   "bom-ref": "pypi/botocore@~=1.43"
+  },
+  {
+   "type": "library",
+   "name": "cryptography",
+   "version": ">=50.0.2",
+   "purl": "pkg:pypi/cryptography@50.0.2",
+   "bom-ref": "pypi/cryptography@>=50.0.2"
+  },
+  {
+   "type": "library",
+   "name": "dj-database-url",
+   "version": ">=3.1.2",
+   "purl": "pkg:pypi/dj-database-url@3.1.2",
+   "bom-ref": "pypi/dj-database-url@>=3.1.2"
+  },
+  {
+   "type": "library",
+   "name": "dj-email-url",
+   "version": ">=1",
+   "purl": "pkg:pypi/dj-email-url@1",
+   "bom-ref": "pypi/dj-email-url@>=1"
+  }
+ ],
+ "sha_unverified": true
+}
